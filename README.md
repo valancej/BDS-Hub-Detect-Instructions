@@ -1,6 +1,7 @@
 # BDS-Hub-Detect-Instructions
 
 Black Duck Software Hub Detect Examples
+Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INTDOCS/pages/49131875/Hub+Detect
 
 ## Table of Contents
 
@@ -13,7 +14,7 @@ Black Duck Software Hub Detect Examples
 
 **Powershell**
 
-These are meant to be run inside powershell.
+These are meant to be run inside powershell. See the hub-detect.ps1 file for complete list of environment variables that can be utilized to modify the execution script.
 
 Send results to the Hub:
 
