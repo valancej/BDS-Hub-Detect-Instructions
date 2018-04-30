@@ -9,13 +9,13 @@ Black Duck Software Hub Detect Examples
 
 ## Windows
 
-    <a name="windows"></a>
+<a name="windows"></a>
 **Powershell**
 
 
 ## Linux/Unix
 
-    <a name="linux"></a>
+<a name="linux"></a>
 
 **Shell**
 
