@@ -1,10 +1,23 @@
 # BDS-Hub-Detect-Instructions
 
-## Hub Detect on Windows
+Black Duck Software Hub Detect Examples
 
-### Powershell
+## Table of Contents
 
-## Hub Detect on Linux/Unix
+1. [Windows](#windows)
+2. [Linux/Unix](#linux)
+
+## Windows
+
+    <a name="windows"></a>
+**Powershell**
+
+
+## Linux/Unix
+
+    <a name="linux"></a>
+
+**Shell**
 
 Send results to the Hub:
 
