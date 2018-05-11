@@ -1,6 +1,6 @@
-# BDS-Hub-Detect-Instructions
+# BDS Hub Detect Instructions
 
-Black Duck Software Hub Detect Examples
+Black Duck Software Hub Detect Documentation
 
 Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INTDOCS/pages/49131875/Hub+Detect
 
