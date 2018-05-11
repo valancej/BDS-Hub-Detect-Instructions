@@ -9,7 +9,7 @@ Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INT
 1. [Running your first scan](#firstscan)
 2. [Windows](#windows)
 3. [Linux/Unix](#linux)
-4. [Examples](#examples)
+4. [Common Properties](#common)
 5. [Docker](#docker)
 
 
@@ -73,7 +73,7 @@ bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --d
 
 ## Common Hub Detect properties
 
-<a name="examples"></a>
+<a name="common"></a>
 
 **Display full list of Hub Detect properties**
 
