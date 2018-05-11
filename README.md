@@ -71,20 +71,18 @@ Offline scan to create JSON:
 bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --detect.hub.signature.scanner.host.url=https://saleshub.blackducksoftware.com --detect.hub.signature.scanner.dry.run=true --blackduck.hub.offline.mode=true
 ```
 
-## Examples
+## Common Hub Detect properties
 
 <a name="examples"></a>
 
-**Common Hub Detect properties**
-
-Display full list of Hub Detect properties:
+**Display full list of Hub Detect properties**
 
 ```
 #!/bin/bash
 bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) -hv
 ```
 
-Automatically import certificates:
+**Automatically import certificates**
 
 You can import certificates from your instance of the Hub. This is a conveniece feature, and your certificates should be imported by your administrator. However, if the certificate is not imported, Hub Detect imports the certificate for you using the following property set to true.
 
