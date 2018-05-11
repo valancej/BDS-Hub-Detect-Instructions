@@ -10,6 +10,7 @@ Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INT
 2. [Windows](#windows)
 3. [Linux/Unix](#linux)
 4. [Examples](#examples)
+5. [Docker](#docker)
 
 ## Running your first scan
 
@@ -74,3 +75,7 @@ bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --d
 <a name="examples"></a>
 
 
+
+## Docker
+
+<a name="docker"></a>
