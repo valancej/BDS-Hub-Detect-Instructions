@@ -75,8 +75,9 @@ bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --d
 
 <a name="examples"></a>
 
+**Full list of Hub Detect properties**
 
-
-## Docker
-
-<a name="docker"></a>
+```
+#!/bin/bash
+bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) -hv
+```
