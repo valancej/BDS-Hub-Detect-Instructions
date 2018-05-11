@@ -20,15 +20,13 @@ Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INT
 
 **Prerequisites**
 
-* Java 8 (JRE 1.8) installed.
-* 8GB RAM.
 * Run any commands used to gather open source dependencies prior to conducting a scan (if applicable).
 * Choose OS you will be running this scan on.
+* Typically, scans are run in the root directory of an application/project you would like scanned.
 
     * [Windows](#windows)
     * [Linux/Unix](#linux)
 
-* Typically, scans are run in the root directory of an application/project you would like scanned.
 
 
 
