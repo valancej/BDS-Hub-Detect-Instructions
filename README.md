@@ -6,17 +6,21 @@ Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INT
 
 ## Table of Contents
 
-1. [Running your first scan](#firstscan)
-2. [Windows](#windows)
-3. [Linux/Unix](#linux)
-4. [Common Properties](#common)
-5. [Docker](#docker)
+1. [What is Hub Detect?](#whatisdetect)
+2. [Running your first scan](#firstscan)
+3. [Windows](#windows)
+4. [Linux/Unix](#linux)
+5. [Common Properties](#common)
 
 
+## What is Hub Detect? 
+<a name="whatisdetect"></a>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
 ## Running your first scan
-
 <a name="firstscan"></a>
+
 
 **Prerequisites**
 
