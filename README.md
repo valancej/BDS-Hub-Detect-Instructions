@@ -75,7 +75,9 @@ bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --d
 
 <a name="examples"></a>
 
-**Full list of Hub Detect properties**
+**Common Hub Detect properties**
+
+Display full list of Hub Detect properties:
 
 ```
 #!/bin/bash
