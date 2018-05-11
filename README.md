@@ -83,3 +83,12 @@ Display full list of Hub Detect properties:
 #!/bin/bash
 bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) -hv
 ```
+
+Automatically import certificates:
+
+You can import certificates from your instance of the Hub. This is a conveniece feature, and your certificates should be imported by your administrator. However, if the certificate is not imported, Hub Detect imports the certificate for you using the following property set to true.
+
+```
+#!/bin/bash
+bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=http://myhub.url --blackduck.hub.username=myusername --blackduck.hub.trust.cert=true
+```
