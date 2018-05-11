@@ -6,8 +6,27 @@ Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INT
 
 ## Table of Contents
 
-1. [Windows](#windows)
-2. [Linux/Unix](#linux)
+1. [Running your first scan](#firstscan)
+2. [Windows](#windows)
+3. [Linux/Unix](#linux)
+4. [Examples](#examples)
+
+## Running your first scan
+
+<a name="firstscan"></a>
+
+**Prerequisites**
+
+* Java 8 (JRE 1.8)
+* 8GB RAM
+* Run any commands used to gather open source dependencies prior to conducting a scan (if applicable).
+* Choose OS you will be running this scan on.
+
+    * [Windows](#windows)
+    * [Linux/Unix](#linux)
+
+
+
 
 ## Windows
 
@@ -49,3 +68,9 @@ Offline scan to create JSON:
 #!/bin/bash
 bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --detect.hub.signature.scanner.host.url=https://saleshub.blackducksoftware.com --detect.hub.signature.scanner.dry.run=true --blackduck.hub.offline.mode=true
 ```
+
+## Examples
+
+<a name="examples"></a>
+
+
