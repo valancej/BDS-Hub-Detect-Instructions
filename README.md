@@ -26,6 +26,7 @@ Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INT
     * [Windows](#windows)
     * [Linux/Unix](#linux)
 
+* Typically, scans are run in the root directory of an application/project you would like scanned.
 
 
 
