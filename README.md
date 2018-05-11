@@ -13,8 +13,8 @@ Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INT
 5. [Common Properties](#common)
 
 
-## What is Hub Detect? <a name="whatisdetect"></a>
-
+## What is Hub Detect? 
+<a name="whatisdetect"></a>
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
@@ -25,8 +25,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 **Prerequisites**
 
 * Run any commands used to gather open source dependencies prior to conducting a scan (if applicable).
-* Choose OS you will be running this scan on.
 * Typically, scans are run in the root directory of an application/project you would like scanned.
+* Choose OS you will be running this scan on.
 
     * [Windows](#windows)
     * [Linux/Unix](#linux)
