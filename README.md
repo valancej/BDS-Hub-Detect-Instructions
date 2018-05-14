@@ -120,6 +120,24 @@ bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --b
 
 When running Hub Detect with maven, make sure to run the appropriate maven command prior to executing Hub Detect command.
 
+Maven build command:
+
+```
+mvn clean package
+```
+
+If you need to specify of the Maven executable add the following property to your Hub Detect command:
+
+```
+--detect.maven.path=/path/to/maven
+``` 
+
+Example:
+
+```
+#!/bin/bash
+bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=http://myhub.url --blackduck.hub.username=myusername --blackduck.hub.trust.cert=true --detect.maven.path/path/to/maven
+```
 
 
 Additional documentation can be found here: https://blackducksoftware.atlassian.net/wiki/spaces/INTDOCS/pages/49131875/Hub+Detect
