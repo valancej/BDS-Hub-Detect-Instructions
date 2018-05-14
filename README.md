@@ -118,7 +118,7 @@ bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --b
 
 **Running Hub Detect with Maven**
 
-When running Hub Detect with maven, make sure to run the appropriate maven command prior to executing Hub Detect command.
+When running Hub Detect with Maven, make sure to run the appropriate maven command prior to executing Hub Detect command.
 
 Maven build command:
 
