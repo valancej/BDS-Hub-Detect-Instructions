@@ -3,10 +3,11 @@
 ## Table of Contents
 
 1. [What is Hub Detect?](#whatisdetect)
-2. [Running your first scan](#firstscan)
+1. [Running your first scan](#firstscan)
 	* [Windows](#windows)
 	* [Linux/Unix](#linux)
-3. [Common Properties](#common)
+1. [Common Properties](#common)
+1. [Package Manager Examples](#examples)
 
 
 ## What is Hub Detect? 
@@ -110,5 +111,15 @@ Example:
 #!/bin/bash
 bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=http://myhub.url --blackduck.hub.username=myusername --blackduck.hub.trust.cert=true
 ```
+
+## Hub Detect Examples
+
+<a name="examples"></a>
+
+**Running Hub Detect with Maven**
+
+When running Hub Detect with maven, make sure to run the appropriate maven command prior to executing Hub Detect command.
+
+
 
 Additional documentation can be found here: https://blackducksoftware.atlassian.net/wiki/spaces/INTDOCS/pages/49131875/Hub+Detect
