@@ -1,22 +1,29 @@
 # BDS Hub Detect Instructions
 
-Black Duck Software Hub Detect Documentation
-
-Full Documentation here: https://blackducksoftware.atlassian.net/wiki/spaces/INTDOCS/pages/49131875/Hub+Detect
-
 ## Table of Contents
 
 1. [What is Hub Detect?](#whatisdetect)
 2. [Running your first scan](#firstscan)
-3. [Windows](#windows)
-4. [Linux/Unix](#linux)
-5. [Common Properties](#common)
+	* [Windows](#windows)
+	* [Linux/Unix](#linux)
+3. [Common Properties](#common)
 
 
 ## What is Hub Detect? 
 <a name="whatisdetect"></a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+Hub Detect is a utility (developed by Black Duck Software) to identify all open source contained within an application. It utilizes two primary methods of detection:
+
+* **Package Manager Identification**
+
+	If the project Hub Detect is inspecting uses a package manager, it will be invoked to reconcile all the parent and transitive dependences. 
+
+* **Signature Scanning**
+
+	Open source dependencies that are not declared in the build script, but present in the file system, will be identified by our signature scanning mechanism.
+
+_Please note, if the project being evaluated does not utilize a package manager, only the signature scanning process will be executed._
+
 
 ## Running your first scan
 <a name="firstscan"></a>
@@ -103,3 +110,5 @@ Example:
 #!/bin/bash
 bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=http://myhub.url --blackduck.hub.username=myusername --blackduck.hub.trust.cert=true
 ```
+
+Additional documentation can be found here: https://blackducksoftware.atlassian.net/wiki/spaces/INTDOCS/pages/49131875/Hub+Detect
