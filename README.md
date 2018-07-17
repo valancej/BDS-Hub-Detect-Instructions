@@ -109,7 +109,7 @@ Example:
 
 ```
 #!/bin/bash
-bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=http://myhub.url --blackduck.hub.username=myusername --blackduck.hub.trust.cert=true
+bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=http://myhub.url --blackduck.hub.username=myusername --blackduck.hub.password=mypassword --blackduck.hub.trust.cert=true
 ```
 
 ## Hub Detect Examples
